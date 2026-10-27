@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: backend-config
 data:
-  DB_HOST: "localhost"
+  DB_HOST: "db"
   DB_PORT: "5432"
   APP_MODE: "development"
